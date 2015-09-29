@@ -1,15 +1,14 @@
 <?xml version="1.0"	encoding="UTF-8" ?>
     <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.dtandoh.pg1" versionCode="11" version="1.0.0">
         <!--	versionCode	is	opIonal	and	Android	only	-->
-        <name>Mobile Web Water Reader</name>
+        <name>Scanner</name>
         <description>
             A test of a class assignment
         </description>
         <author href="http://www.facebook.com" email="israel.agyeman.prempeh@gmail.com">
             Israel Agyeman-Prempeh
         </author>
-        <icon src="bigB.png" />
-        <gap:splash src="bigB.png" />
+        
         <gap:plaGorm name="ios" />
         <gap:plaGorm name="android" />
         <gap:plaGorm name="winphone" />

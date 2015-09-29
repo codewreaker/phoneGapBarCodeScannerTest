@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <title>BarCode Scanner</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <div>
+      <button id="btn">Scan</button>
+    </div>
+    <div>
+        <label for="scanText">Code Value Appears Here</label>
+        <input type="text" id="scanText">
+    </div>
     <script>
         $(function () {
              $("#btn").on("click",function(){
@@ -29,17 +41,6 @@
 
         });
     </script>
-</head>
-
-<body>
-
-    <div>
-      <button id="btn">Scan</button>
-    </div>
-    <div>
-        <label for="scanText">Code Value Appears Here</label>
-        <input type="text" id="scanText">
-    </div>
 
 </body>
 
